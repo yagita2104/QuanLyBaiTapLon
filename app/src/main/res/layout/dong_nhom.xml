@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dongNhom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/border"
+    android:weightSum="6">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTenNhom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên nhóm"
+                android:textColor="#FF0000"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/txtTenDeTai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên đề tài"
+                android:textColor="#008EFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtTruongNhom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trưởng nhóm" />
+
+            <TextView
+                android:id="@+id/txtSoThanhVienNhom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Số thành viên" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

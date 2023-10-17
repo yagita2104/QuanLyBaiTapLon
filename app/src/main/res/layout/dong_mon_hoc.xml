@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/border"
+    android:id="@+id/dongMonHoc">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtTenMonHoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="21sp"
+                android:textColor="#FF0000"
+                android:text="Tên môn học"/>
+            <TextView
+                android:id="@+id/txtThoiGianHoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#008EFF"
+                android:textSize="16sp"
+                android:text="Thời gian học"/>
+            <TextView
+                android:id="@+id/txtSoLop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Số lớp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

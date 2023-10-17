@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/border"
+    android:id="@+id/dongLop">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtTenLopHoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            android:textColor="#FF0000"
+            android:text="Tên lớp học"/>
+        <TextView
+            android:id="@+id/txtLopTruong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#008EFF"
+            android:textSize="16sp"
+            android:text="Tên lớp trưởng"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txtSoNhom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="10dip"
+                android:text="Số nhóm"/>
+            <TextView
+                android:id="@+id/txtSoLuongSinhVien"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Có: 70 sinh viên"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

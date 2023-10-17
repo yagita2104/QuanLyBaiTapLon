@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnuPhanNhomTuDong"
+        android:title="Phân nhóm tự động"/>
+    <item
+        android:id="@+id/mnuPhanNhomThuCong"
+        android:title="Phân nhóm thủ công"/>
+</menu>

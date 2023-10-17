@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/haui"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:background="#94F1EEBC"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif"
+            android:text="ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI"
+            android:textColor="#021DB1"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:layout_marginTop="5dp"
+            android:text="HANOI UNIVERSITY OF INDUSTRY"
+            android:textColor="#DA4A40"
+            android:textSize="16dp"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/haui_logo"
+            android:layout_marginBottom="40dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/border_button"
+                android:layout_marginBottom="15dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/sach"
+                    />
+
+                <Button
+                    android:id="@+id/btnMonHoc"
+                    android:layout_width="250dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="#176FB5"
+                    android:fontFamily="serif"
+                    android:text="Môn học"
+                    android:textColor="#FFF"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/border_button"
+
+                android:layout_marginBottom="15dp">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/btl" />
+                <Button
+                    android:id="@+id/btnBTL"
+                    android:layout_width="250dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#176FB5"
+                    android:fontFamily="serif"
+
+                    android:layout_marginRight="10dp"
+                    android:text="Danh sách bài tập lớn"
+                    android:textColor="#FFF"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/border_button"
+                android:layout_marginBottom="15dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/bao_cao" />
+
+                <Button
+                    android:id="@+id/btnBaoCaoTienDo"
+                    android:layout_width="250dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#176FB5"
+                    android:fontFamily="serif"
+                    android:layout_marginRight="10dp"
+                    android:text="Báo cáo tiến độ"
+                    android:textColor="#FFF"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/border_button"
+                android:layout_marginBottom="15dp">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/cham_diem" />
+                <Button
+                    android:id="@+id/btnChamDiem"
+                    android:layout_width="250dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#176FB5"
+                    android:fontFamily="serif"
+                    android:text="Chấm điểm"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#FFF"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/border_button"
+                android:layout_marginBottom="15dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/hoc_lai" />
+                <Button
+                    android:id="@+id/btnDanhSachTruot"
+                    android:layout_width="250dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#176FB5"
+                    android:fontFamily="serif"
+                    android:text="Danh sách trượt"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#FFF"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

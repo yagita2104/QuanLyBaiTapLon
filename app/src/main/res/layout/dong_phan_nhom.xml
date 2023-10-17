@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:weightSum="4"
+    android:id="@+id/dongSinhVienPN">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.5"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtTenSinhVienPN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="21sp"
+            android:textColor="#FF0000"
+            android:text="Tên sinh viên"/>
+        <TextView
+            android:id="@+id/txtThuocNhomPN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#008EFF"
+            android:textSize="16sp"
+            android:text="Thuộc nhóm"/>
+        <TextView
+            android:id="@+id/txtDiemSinhVienPN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Điểm: "/>
+    </LinearLayout>
+    <CheckBox
+        android:id="@+id/cbPhanNhom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        />
+</LinearLayout>

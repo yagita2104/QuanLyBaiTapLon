@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QLBTL"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.DanhSachLop"
+            android:exported="false"
+            android:label="Danh sách lớp" />
+        <activity
+            android:name=".activity.DanhSachSinhVien"
+            android:exported="false"
+            android:label="Danh sách sinh viên" />
+        <activity
+            android:name=".activity.DanhSachTruotActivity"
+            android:exported="false"
+            android:label="Danh sách trượt" />
+        <activity
+            android:name=".activity.ChamDiemActivity"
+            android:exported="false"
+            android:label="Chấm điểm" />
+        <activity
+            android:name=".activity.BaoCaoTienDo"
+            android:exported="false"
+            android:label="Báo cáo tiến độ" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true"
+            android:label="Quản lý bài tập lớn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.DanhSachMonHoc"
+            android:exported="false"
+            android:label="Môn học" />
+        <activity
+            android:name=".activity.DanhSachDeTai"
+            android:exported="false"
+            android:label="Danh sách đề tài" />
+        <activity
+            android:name=".activity.PhanNhom"
+            android:exported="false"
+            android:label="Phân nhóm" />
+    </application>
+
+</manifest>

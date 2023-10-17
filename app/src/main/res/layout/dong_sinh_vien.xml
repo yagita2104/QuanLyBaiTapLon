@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="4"
+    android:layout_margin="20dp"
+    android:background="@drawable/border"
+    android:id="@+id/dongSinhVien">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        >
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtTenSinhVien"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="21sp"
+                android:textColor="#FF0000"
+                android:text="Tên sinh viên"/>
+            <TextView
+                android:id="@+id/txtThuocNhom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#008EFF"
+                android:textSize="16sp"
+                android:text="Thuộc nhóm"/>
+            <TextView
+                android:id="@+id/txtDiemSinhVien"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Điểm: "/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
